@@ -9,7 +9,14 @@ export default {
     }, {
       test: /\.json$/,
       loader: 'json-loader'
-    }]
+    }, {
+      test: /\.md$/,
+      loader: 'html!markdown?gfm=false'
+    }, {
+      test: /\.jpg$/,
+      loader: 'url'
+    }
+    ]
   },
   output: {
     path: path.join(__dirname, 'dist'),

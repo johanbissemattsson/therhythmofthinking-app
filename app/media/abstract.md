@@ -1,0 +1,17 @@
+# Abstract
+**Title:** The Rhythm of Thinking: Immanence and Ethics in Theater Performance
+
+**Language:** English with a summary in Swedish
+
+**Keywords:** Theater, Music Theater, Theater directing, Theatrical composition, Dramaturgy, Process Philosophy, Process Ontology, Immanent Collective Processes, Co-composition, Becoming, Multiplicity, Ethics, Compositional structure and Ethics, Collective creation, Instant collective composition, The production of meaning, Hierarchy in collective creation, Relation of non-relation, Performative critique, Performance philosophy, John Cage, Mathias Spahlinger, Gilles Deleuze, Rosi Braidotti, Brian Massumi, Artistic research.
+The dissertation exists as a book and as a multimedia platform, accessible at: www.gupea.ub.gu.se
+
+**ISBN:** 978-91-982423-0-0 (printed edition)
+**ISBN:**  978-91-982423-1-7 (digital edition
+
+The dissertation *The Rhythm of Thinking: Immanence and Ethics in Theater Performance* is an artistic research project in the field of theater, with directing and theatrical composition and dramaturgy as its main points of focus. The critical exploration is based on the experience of conceptualizing and directing three different theater performances. The project is an attempt to explore the implications of the concept of immanence in the collective creative process of theater making. In particular, it is an effort to illuminate what might be called “processes of immanence” or “theater of immanence” The research is built around a net of questions, observations, and thoughts ranging from the experiences of collective creative processes and collaborative work with the performers, to academic criticism on discourses related to the fields of performance studies, philosophy and performance philosophy, perception theory, and musicology. The unfurling of this net is intended to contribute to the ideas and theories surrounding the relationship between the structural specifics of theater – dramaturgically and compositionally – and the aspects of meaning and affect. This formulation encapsulates a number of sub-areas to which the investigation aims to contribute with problematizing insertions, areas broadly defined as: transforming theories into concrete compositional and processual measures; developing dramaturgical discourses beyond semantic language; problematizing a binary relation between composition/conceptualization and an intuitive, emotional creative force; discussing how to enhance a readiness for variation in the performers; problematizing hierarchical structures, both in regards to the hierarchy of expressions, as well as creative influence; mapping out a thought process for a directorial practice; and finally, searching for a possible reciprocity between compositional structures and ethics.
+
+The investigated materials are theater performances but in the critical treatment the research mainly activates philosophical discourses rather than what could be considered performance studies perspectives. This philosophical approach is mainly represented by the French philosopher Gillez Deleuze (1925–-1995), but also by the Canadian philosopher Brian Massumi (1956–), and the Italian/Australian philosopher Rosi Braidotti (1954–).
+
+<img src="../media/start/bgStart02.jpg">
+
