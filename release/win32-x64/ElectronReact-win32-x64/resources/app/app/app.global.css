@@ -80,3 +80,41 @@ blockquote {
 .slick-slide.dragging img { pointer-events: none; }
 .slick-initialized .slick-slide { display: block; }
 .slick-loading .slick-slide { visibility: hidden; }
+
+.sticky {
+    padding-top: 32px;
+}
+
+sup {
+  color: #7575cc;
+}
+
+.footnote {
+  font-size: 0.675em;
+  color: #6388cc;
+  line-height: 1.375;
+  margin-bottom: 5%;
+  margin-top: -1.5%;
+}
+  .footnote p {
+    text-align: left;
+  }
+
+  .footnote a {
+    color: #6388cc;
+  }
+
+  .footnote img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 960px) {
+    .footnote {
+    position: absolute;
+    text-align: left;
+    width: 17.5%;
+    right: 5%;
+    margin-top: -3.75%;
+  }
+}

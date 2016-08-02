@@ -2,6 +2,9 @@ import React from 'react';
 import { IndexLink, Link } from 'react-router';
 import styles from '../stylesheets/containers/header.css';
 import Slider from 'react-slick';
+import Scroll from 'react-scroll';
+
+let scroll = Scroll.animateScroll;
 
 export default class Header extends React.Component {
   render() {

@@ -1,5 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
+
 export default class App extends Component {
   static propTypes = {
     children: PropTypes.element.isRequired
@@ -9,7 +12,7 @@ export default class App extends Component {
     return (
       <div>
       <Header />
-        {this.props.children}
+      <Main currentSlug={this.props.params.slug} currentArticle={this.props.children}/>
       <Footer />
       </div>
     );

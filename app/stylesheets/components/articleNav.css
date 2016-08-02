@@ -1,0 +1,62 @@
+.articleNav {
+  flex: 0 0 25%;
+}
+
+.articleNav a {
+      text-decoration: none;
+}
+
+.articleNav .titleLink {
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 0.75em;
+  }
+
+.articleNav .titleLink::before {
+    font: normal normal normal 18px/1 FontAwesome;
+    content: "\f106";
+    color: transparent;
+    transition: all 1s;
+    margin-right: 0;
+    left: -16px;
+    margin-left: -14px;
+    position: relative;
+    width: 0;
+    top: 16px;
+  }
+
+.articleNav .titleLink:hover::before {
+    color: rgba(0, 0, 0, 0.25);
+    top: 0;
+  }
+
+.articleNav li a {
+    font-size: 0.75em;
+    color: #999;
+  }
+
+.articleNav li::before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f105";
+    color: transparent;
+    transition: all 1s;
+    margin-right: 12px;
+    margin-left: -16px;
+  }
+
+.articleNav li:hover::before {
+    color: rgba(0, 0, 0, 0.25);
+    margin-right: 6px;
+    margin-left: 0;
+  }
+
+
+@media (min-width: 960px) {
+  .articleNav {
+    position: absolute;
+    width: 20%;
+  }
+}
