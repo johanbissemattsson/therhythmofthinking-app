@@ -4,11 +4,18 @@ import Main from './Main';
 import Footer from './Footer';
 
 export default class App extends Component {
-  static propTypes = {
-    children: PropTypes.element.isRequired
-  };
-
   render() {
+    if (this.props.overlay) {
+      return (
+        <div>
+          <Header />
+          <Main />
+          {this.props.overlay}
+          <Footer />
+        </div>
+      )
+    }
+
     return (
       <div>
       <Header />
@@ -18,3 +25,7 @@ export default class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  children: React.PropTypes.element
+};

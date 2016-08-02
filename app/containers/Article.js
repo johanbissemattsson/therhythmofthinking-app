@@ -3,11 +3,6 @@ import { connect } from 'react-redux';
 import styles from '../stylesheets/containers/article.css';
 import ArticleNav from '../components/ArticleNav';
 import { StickyContainer, Sticky } from 'react-sticky';
-import abstract from '../media/abstract.md';
-import colophon from '../media/colophon.md';
-import summary from '../media/summary.md';
-import references from '../media/references.md';
-import acknowledgements from '../media/acknowledgements.md';
 import itsAllInThePassing from '../media/its-all-in-the-passing.md';
 import interview20 from '../media/interview-20.md';
 import cageInterpretedAndPerformed from '../media/cage-interpreted-and-performed.md';
@@ -55,13 +50,7 @@ class Article extends React.Component {
   }  
 
   rawMarkup(){
-    switch (this.props.params.slug) {
-      case 'abstract': return{ __html: abstract};
-      case 'summary': return{ __html: summary};
-      case 'colophon': return{ __html: colophon};      
-      case 'references': return{ __html: references};
-      case 'acknowledgements': return{ __html: acknowledgements};
-      case 'its-all-in-the-passing': return{ __html: itsAllInThePassing};      
+    switch (this.props.params.slug) {  
       case 'interview-20': return{ __html: interview20};
       case 'cage-interpreted-and-performed': return{ __html: cageInterpretedAndPerformed};
       case 'interview-3': return{ __html: interview3};
@@ -74,8 +63,7 @@ class Article extends React.Component {
       case 'interview-14': return{ __html: interview14};
       case 'the-rhythm-of-thinking': return{ __html: theRhythmOfThinking};
       case 'interview-19': return{ __html: interview19};
-      case 'references': return{ __html: references};      
-      default: return{ __html: colophon};
+      default: return{ __html: itsAllInThePassing};
     }
   }
   render() {

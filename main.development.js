@@ -262,6 +262,10 @@ app.on('ready', async () => {
       }]
     }];
     menu = Menu.buildFromTemplate(template);
-    mainWindow.setMenu(menu);
+    if (process.env.NODE_ENV === 'development') {
+      mainWindow.setMenu(menu);
+    } else {
+      mainWindow.setMenu(null);
+    }
   }
 });

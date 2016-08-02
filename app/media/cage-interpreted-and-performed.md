@@ -2,7 +2,7 @@
 Probably the most inspiring point of entry into what lies ahead would be to first view one of the four documentations of the theater production *John and the Mushrooms*, which this text is going to be about. The experience of doing so will be both slightly confusing and somewhat lackluster since your senses are inevitably disconnected from the live expressive energy of all the many movements and sounds and things that actually took place in the theater space: What can you make from seeing threads being strung like telegraph lines throughout the room, criss-crossing and attached with thoughts, ideas, and mushroom, like messages only just received? Can you possibly make sense of why people in the audience suddenly start to listen to each other’s stomachs? Still, this is what I suggest. Not because I presume that the images and sounds will conjure up anything close to an esthetic experience. But conjoined with this explanatory and critical text it will enable an understanding of an esthetic undertaking. It will put meat on the critical bones and it will hopefully create an effective tension between the unruly development of the performance and the misleading certainty inherent in carefully prepared formulations.
 
 <div class="footnote">
-  <img src="/media/cage-interpreted-and-performed/cage01.jpg" width=480 height=720 />
+  <img src="../media/cage-interpreted-and-performed/cage01.jpg" width=480 height=720 />
   <a href="performances/john-and-the-mushrooms/performance-37" class="media-link">Performance #37</a>
   <a href="performances/john-and-the-mushrooms/performance-50" class="media-link">Performance #50</a>
   <a href="performances/john-and-the-mushrooms/performance-51" class="media-link">Performance #51</a>
@@ -239,7 +239,7 @@ We also thought that it was important to include some texts and comments origina
 These boxes were also a way to create the form for the parts that were chance operated. We let John come up with the idea of a game with boxes for each performer in which he/we could put different “things.” Every player had three boxes, one box for each part of the performance that was chance operated.
 
 <div class="footnote">
-  <img src="/media/cage-interpreted-and-performed/cage-boxes.jpg" width=480 height=720 />
+  <img src="../media/cage-interpreted-and-performed/cage-boxes.jpg" width=480 height=720 />
 </div>
 
 
@@ -347,7 +347,7 @@ THE END
 
 <div class="footnote">
   <a href="/media/cage-interpreted-and-performed/JOHN AND THE MUSHROOMS script Eng 1.9.pdf">
-  <img src="/media/cage-interpreted-and-performed/cover-jm-script.png" width="480" height="679" class="shadow">
+  <img src="../media/cage-interpreted-and-performed/cover-jm-script.jpg" width="480" height="679" class="shadow">
   Show full script</a>
 </div>
 KOM IHÅG: BILD

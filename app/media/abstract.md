@@ -13,5 +13,3 @@ The dissertation *The Rhythm of Thinking: Immanence and Ethics in Theater Perfor
 
 The investigated materials are theater performances but in the critical treatment the research mainly activates philosophical discourses rather than what could be considered performance studies perspectives. This philosophical approach is mainly represented by the French philosopher Gillez Deleuze (1925–-1995), but also by the Canadian philosopher Brian Massumi (1956–), and the Italian/Australian philosopher Rosi Braidotti (1954–).
 
-<img src="../media/start/bgStart01.jpg" width="200" height="200">
-
