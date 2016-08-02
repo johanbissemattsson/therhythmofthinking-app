@@ -112,6 +112,7 @@
     "react-sticky": "^5.0.4",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
+    "smoothscroll": "^0.2.2",
     "source-map-support": "^0.4.2"
   },
   "devEngines": {
