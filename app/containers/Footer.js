@@ -5,7 +5,7 @@ import styles from '../stylesheets/containers/footer.css';
 export default class Footer extends React.Component {
   render() {
     return (
-      <footer className={styles.container}>
+      <footer className={styles.container} id="footer">
         <h2 id="performances">The Performances</h2>
         <section>
           <h3>John and the Mushrooms</h3>

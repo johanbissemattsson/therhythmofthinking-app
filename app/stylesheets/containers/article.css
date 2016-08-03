@@ -9,6 +9,10 @@
     height: auto;
   }
 
+.article .content sup {
+    font-size: 0.675em;
+}
+
   @media (min-width: 960px) {
     .article {
       flex-direction: row;
@@ -105,7 +109,7 @@
 }
 
 .overlayArticle p {
-    text-align: justify;
+    text-align: left;
   }
 
 .overlayArticle blockquote {

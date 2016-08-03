@@ -110,6 +110,9 @@ sup {
     height: auto;
   }
 
+  .footnote sup {
+    font-size: 1em !important;
+  }
   @media (min-width: 960px) {
     .footnote {
     position: absolute;

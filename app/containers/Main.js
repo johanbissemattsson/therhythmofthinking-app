@@ -6,7 +6,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <main className={styles.container}>
-        <nav className={styles.nav}>
+        <nav className={styles.nav} id="nav">
           <ul>
             <li className={styles.navItem}>
               <Link to="/its-all-in-the-passing" className={styles.link} activeClassName={styles.active}>
@@ -132,6 +132,18 @@ export default class Main extends React.Component {
         {this.props.currentSlug == "summary" && this.props.currentArticle}
         {this.props.currentSlug == "references" && this.props.currentArticle}
         {this.props.currentSlug == "acknowledgements" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-37" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-50" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-51" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-59" && this.props.currentArticle}
+        {this.props.currentSlug == "cicadas" && this.props.currentArticle}
+        {this.props.currentSlug == "independent-variables" && this.props.currentArticle}
+        {this.props.currentSlug == "empathy" && this.props.currentArticle}
+        {this.props.currentSlug == "birds" && this.props.currentArticle}        
+        {this.props.currentSlug == "performance-3" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-5" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-6" && this.props.currentArticle}
+        {this.props.currentSlug == "performance-7" && this.props.currentArticle}                   
       </main>
     )
   }

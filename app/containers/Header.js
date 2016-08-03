@@ -21,7 +21,7 @@ export default class Header extends React.Component {
       draggable: false
     };
     return (
-      <header className={styles.container}>
+      <header className={styles.container} id="header">
         <span className={styles.author}>Johan Petri</span>
         <IndexLink to="/" className={styles.title} activeClassName="active">
           <h1>The Rhythm of Thinking</h1>

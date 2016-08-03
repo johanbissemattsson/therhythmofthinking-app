@@ -43,6 +43,9 @@ class Article extends React.Component {
 
   componentWillUnmount () {
     document.body.style.overflowY = 'auto';
+    /*document.getElementById('header').style.setProperty("-webkit-filter", "none");
+    document.getElementById('nav').style.setProperty("-webkit-filter", "none");
+    document.getElementById('footer').style.setProperty("-webkit-filter", "none");*/      
   }
 
   componentDidUpdate () {
@@ -82,6 +85,9 @@ class Article extends React.Component {
     console.log(this.props.params.slug);
     if (this.props.params.slug == 'abstract' || this.props.params.slug == 'colophon' || this.props.params.slug == 'summary' || this.props.params.slug == 'references' || this.props.params.slug == 'acknowledgements') {
       document.body.style.overflowY = 'hidden';
+      /*document.getElementById('header').style.setProperty("-webkit-filter", "blur(4px)");
+      document.getElementById('nav').style.setProperty("-webkit-filter", "blur(4px)");
+      document.getElementById('footer').style.setProperty("-webkit-filter", "blur(4px)");*/      
       return (
           <div className={styles.overlayContainer}>
             <Link className={styles.overlayClose} to="/" />

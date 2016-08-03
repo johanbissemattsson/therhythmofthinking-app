@@ -1,6 +1,3 @@
-# The Rhythm of Thinking
-On esthetics, thinking and ethics
-
 >We do not begin with a moral image of man or human freedom; we rely on the examination of syntheses, interactions and the openness of life to a not already-given future. We begin, therefore, with perception: not a subject who perceives, nor an object perceived, but an interaction or event of perception which then creates a relation, territory or machine of two responding terms.
 
 >Claire Colebrook
