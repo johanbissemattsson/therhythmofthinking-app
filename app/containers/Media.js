@@ -26,6 +26,34 @@ class Media extends React.Component {
     document.getElementById('nav').style.setProperty("-webkit-filter", "blur(4px)");
     document.getElementById('footer').style.setProperty("-webkit-filter", "blur(4px)");*/
     const title = this.props.params.slug.replace("-", " #");
+    if (this.props.params.slug == 'cicadas' || this.props.params.slug == 'independent-variables' || this.props.params.slug == 'empathy' || this.props.params.slug == 'birds' ) {
+      return(
+        <div className={styles.overlayContainer}>
+          <Link className={styles.overlayClose} to="/" />
+          <article className={styles.overlayArticle}>
+            <div className={styles.content}>
+              <h1>{title}</h1>
+              <p>Ljud</p>
+            </div>
+          </article>
+        </div>
+      )           
+    }
+    if (this.props.params.slug == 'performance-37') {
+      return(
+        <div className={styles.overlayContainer}>
+          <Link className={styles.overlayClose} to="/" />
+          <article className={styles.overlayArticle}>
+            <div className={styles.content}>
+              <h1>{title}</h1>
+              <video width="320" height="240" controls>
+                <source src="../app/media/cage-interpreted-and-performed/jm51.mp4" type="video/mp4" />
+              </video> 
+            </div>
+          </article>
+        </div>
+      )           
+    }    
     return(
       <div className={styles.overlayContainer}>
         <Link className={styles.overlayClose} to="/" />

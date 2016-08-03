@@ -45,6 +45,7 @@
   }
   .content h2 {
     font-size: 1em;
+    margin-bottom: 0;
   }
   .content h3 {
     font-size: 0.875em;

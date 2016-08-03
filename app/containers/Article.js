@@ -100,7 +100,7 @@ class Article extends React.Component {
     return (
       <article className={styles.article} ref="activeArticle">
         <StickyContainer>
-          <Sticky topOffset={-32} bottomOffset={256}>
+          <Sticky topOffset={-32} bottomOffset={512}>
             <ArticleNav slug={this.props.params.slug} />
           </Sticky>
           <div className={styles.content} dangerouslySetInnerHTML={this.rawMarkup()} />
