@@ -18,7 +18,7 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="/interview-20" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 20</h2>
-                <p className={styles.subtitle}>Rational reasoning and multiple focuses. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>Rational reasoning and multiple focuses. In dialogue with Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-20" && this.props.currentArticle}
             </li>
@@ -32,7 +32,7 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="interview-3" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 3</h2>
-                <p className={styles.subtitle}>The function of reflection. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>The function of reflection. In dialogue with Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-3" && this.props.currentArticle}
             </li>
@@ -46,7 +46,7 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="interview-7" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 7</h2>
-                <p className={styles.subtitle}>Vulnerability and Immanent creation. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>Vulnerability and Immanent creation. In dialogue with Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-7" && this.props.currentArticle}
             </li>
@@ -67,7 +67,7 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="interview-5" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 5</h2>
-                <p className={styles.subtitle}>On critical appropiations. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>On critical appropiations. In dialogue Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-5" && this.props.currentArticle}
             </li>
@@ -81,7 +81,7 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="interview-14" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 14</h2>
-                <p className={styles.subtitle}>What the performance does to it's audience. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>What the performance does to it's audience. In dialogue Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-14" && this.props.currentArticle}
             </li>
@@ -95,12 +95,17 @@ export default class Main extends React.Component {
             <li className={styles.navItem}>
               <Link to="interview-19" className={styles.link} activeClassName={styles.active}>
                 <h2 className={styles.title}>Interview 19</h2>
-                <p className={styles.subtitle}>Tracing a politico-ethical-esthetics, and other topics. In dialogue with Institute with Unpredictable</p>
+                <p className={styles.subtitle}>Tracing a politico-ethical-esthetics, and other topics. In dialogue with Institute for Unpredictable Processes</p>
               </Link>
               {this.props.currentSlug == "interview-19" && this.props.currentArticle}
             </li>
           </ul>
         </nav>
+        {this.props.currentSlug == "abstract" && this.props.currentArticle}
+        {this.props.currentSlug == "colophon" && this.props.currentArticle}
+        {this.props.currentSlug == "summary" && this.props.currentArticle}
+        {this.props.currentSlug == "references" && this.props.currentArticle}
+        {this.props.currentSlug == "acknowledgements" && this.props.currentArticle}
       </main>
     )
   }

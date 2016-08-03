@@ -8,6 +8,12 @@ import Overlay from './containers/Overlay';
 export default (
   <Route path="/" component={App}>
     <IndexRoute />
+
+    <Route path=":slug" component={Article} />
+  </Route>
+);
+
+/*
     <Route path="abstract" components={{overlay: Overlay}} />
     <Route path="colophon" components={{overlay: Overlay}} />
     <Route path="summary" components={{overlay: Overlay}} />
@@ -25,6 +31,4 @@ export default (
     <Route path="performances/ryoanji-a-meeting/performance-5" components={{overlay: Overlay}} />
     <Route path="performances/ryoanji-a-meeting/performance-6" components={{overlay: Overlay}} />
     <Route path="performances/ryoanji-a-meeting/performance-7" components={{overlay: Overlay}} />
-    <Route path=":slug" component={Article} />
-  </Route>
-);
+    */

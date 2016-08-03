@@ -5,11 +5,15 @@ import styles from '../stylesheets/containers/overlay.css';
 import abstract from '../media/abstract.md';
 import summary from '../media/summary.md';
 
-
-
 class Overlay extends React.Component {
   componentDidMount() {
-    console.log(this.props);
+    const location = this.props.location.pathname.toString().replace(/^,/, '');
+    console.log(location);
+  }
+
+  componentDidUpdate() {
+    const location = this.props.location.pathname.toString().replace(/^,/, '');
+    console.log(location);
   }
 
   componentWillUnmount() {
@@ -17,7 +21,6 @@ class Overlay extends React.Component {
   }
 
   rawMarkup(location){
-    console.log(location);
     switch (location) {  
       case 'abstract': return{ __html: abstract};
       default: return{ __html: summary};
@@ -25,8 +28,7 @@ class Overlay extends React.Component {
   }
   
   render() {
-    //const location = this.props.location.pathname.toString().replace(/^,/, '');
-    const location = this.props.location.pathname;
+    const location = this.props.location.pathname.toString().replace(/^,/, '');
     document.body.style.overflowY = 'hidden';
     return (
         <div className={styles.container}>

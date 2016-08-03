@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import styles from '../stylesheets/containers/article.css';
 import ArticleNav from '../components/ArticleNav';
 import { StickyContainer, Sticky } from 'react-sticky';
+import abstract from '../media/abstract.md';
+import colophon from '../media/colophon.md';
+import summary from '../media/summary.md';
+import references from '../media/references.md';
+import acknowledgements from '../media/acknowledgements.md';
 import itsAllInThePassing from '../media/its-all-in-the-passing.md';
 import interview20 from '../media/interview-20.md';
 import cageInterpretedAndPerformed from '../media/cage-interpreted-and-performed.md';
@@ -36,7 +42,7 @@ class Article extends React.Component {
   }
 
   componentWillUnmount () {
-
+    document.body.style.overflowY = 'auto';
   }
 
   componentDidUpdate () {
@@ -50,7 +56,13 @@ class Article extends React.Component {
   }  
 
   rawMarkup(){
-    switch (this.props.params.slug) {  
+    switch (this.props.params.slug) {
+      case 'abstract': return{ __html: abstract};
+      case 'colophon': return{ __html: colophon};
+      case 'summary': return{ __html: summary}; 
+      case 'references': return{ __html: references};
+      case 'acknowledgements': return{ __html: acknowledgements};
+      case 'its-all-in-the-passing': return{ __html: itsAllInThePassing};
       case 'interview-20': return{ __html: interview20};
       case 'cage-interpreted-and-performed': return{ __html: cageInterpretedAndPerformed};
       case 'interview-3': return{ __html: interview3};
@@ -67,6 +79,18 @@ class Article extends React.Component {
     }
   }
   render() {
+    console.log(this.props.params.slug);
+    if (this.props.params.slug == 'abstract' || this.props.params.slug == 'colophon' || this.props.params.slug == 'summary' || this.props.params.slug == 'references' || this.props.params.slug == 'acknowledgements') {
+      document.body.style.overflowY = 'hidden';
+      return (
+          <div className={styles.overlayContainer}>
+            <Link className={styles.overlayClose} to="/" />
+            <article className={styles.overlayArticle}>
+              <div className={styles.content} dangerouslySetInnerHTML={this.rawMarkup(location)} />
+            </article>
+          </div>
+        );
+    }
     return (
       <article className={styles.article} ref="activeArticle">
         <StickyContainer>

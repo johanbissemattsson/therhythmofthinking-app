@@ -261,7 +261,7 @@ The work with the script was to a large extent about searching, deciding and cho
 
 Some pieces of material in the characters’ different boxes were the same, which this last little Zen-story is an example of, but when putting together the material we made choices based on the idea that the materials in the boxes should relate to the interest and the “voice” of the character. This was done with the intention to support the image of him/herself as esthetically defined with a specific interest and temperament. Since the character Yoko was thought of as a fictive person who took inspiration from the artist Yoko Ono, it was obvious to turn to her own art and the many conceptual pieces that she has created, and to include them in the material. A few examples of these are:
 
-* We are all vulnerable. Sing! (Y 1.7).
+> * We are all vulnerable. Sing! (Y 1.7).
 * Bring your shadows together so that they become one (Y 1.16).
 * Record the breathing of the room. Bottle the smell of the room as well (Y2.7).
 * I am looking forward to gather all wishes and make them into one (Y2.20).
