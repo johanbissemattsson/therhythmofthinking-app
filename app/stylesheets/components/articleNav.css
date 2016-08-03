@@ -1,5 +1,7 @@
 .articleNav {
   flex: 0 0 25%;
+  padding-right: 2em;
+  box-sizing: border-box;
 }
 
 .articleNav a {

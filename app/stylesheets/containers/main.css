@@ -6,17 +6,15 @@
 
 .navItem {
   border-bottom: 1px solid #ccc;
-  min-height: 4em;  
 }
 
 .navItem .link {
-    display: flex;
-    flex-direction: column;
     text-decoration: none;
     transition: all 0.3s;
-    padding: 5%;
     min-height: 4em;
-    box-sizing: border-box;  
+    padding: 2.5%;
+    display: block;
+    box-sizing: border-box; 
 }
 
 .navItem .link:hover {
@@ -31,6 +29,7 @@
       letter-spacing: 2px;
       font-weight: normal;
       font-size: 0.75em;
+        max-width: 360px;       
 }
 
 .navItem .link .subtitle {
@@ -57,21 +56,29 @@
 
 @media (min-width: 960px) {
   .navItem {
-    min-height: 5em;  
   }
 
   .navItem .link {
-      flex-direction: row;
-      align-items: center;
       padding: 2.5% 5%;
-      min-height: 5em;
+      display: flex;
+        width: 100%;
+  }
+
+  .navItem .link .titleContainer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
   }
 
   .navItem .title {
         flex: 1 1 25%;
+        padding-right: 2em;
+        box-sizing: border-box;
   }
 
-  .navItem .subtitle {
+  .navItem .link .subtitle {
       flex: 1 1 75%;
       font-size: 1em;
   }    

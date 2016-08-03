@@ -13,6 +13,8 @@
     .article {
       flex-direction: row;
       padding: 2.5% 5%;
+      max-width: 1440px;
+      margin: 0 auto;
     }
     .article .content {
       flex: 0 0 50%;
@@ -98,7 +100,8 @@
   margin: 0 auto;
   padding: 0.125% 5% 5% 5%;
   box-sizing: border-box;
-  max-width: 800px;
+  width: 65%;
+  max-width: 960px;
 }
 
 .overlayArticle p {
