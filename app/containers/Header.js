@@ -4,7 +4,7 @@ import styles from '../stylesheets/containers/header.css';
 import Slider from 'react-slick';
 import Scroll from 'react-scroll';
 
-let scroll = Scroll.animateScroll;
+let DirectLink = Scroll.Link;
 
 export default class Header extends React.Component {
   render() {
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
         <footer className={styles.footer}>
           <span className={styles.description}>An Artistic Research Exploration of Dramaturgical and Compositional questions through the making of Theater</span>
           <nav className={styles.nav}>
-            <a href="#performances">The Performances</a>
+            <DirectLink to="footer" smooth={true} duration={500}>Performances</DirectLink>
             <Link to="abstract">Abstract</Link>
             <Link to="colophon">Colophon</Link>
             <Link to="summary">Summary</Link>

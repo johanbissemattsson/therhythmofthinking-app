@@ -20,8 +20,18 @@
   max-width: 960px;
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
   justify-content: center;
+  height: 100%;  
+}
+
+.overlayAudioArticle {
+  margin: 0 auto;
+  padding: 0.125% 5% 5% 5%;
+  box-sizing: border-box;
+  width: 65%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
   height: 100%;  
 }
 
@@ -30,15 +40,15 @@
     height: auto;
   }
 
-.overlayArticle p {
+.overlayArticle p, .overlayAudioArticle p {
     text-align: left;
   }
 
-.overlayArticle blockquote {
+.overlayArticle blockquote, .overlayAudioArticle blockquote {
     color: #ccc;
   }
 
-.overlayArticle h1 {
+.overlayArticle h1, .overlayAudioArticle h1 {
     color: #ccc;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -46,14 +56,17 @@
     font-size: 0.75em;
     text-align: center;
     margin: 3em 1em 1em 1em;
-    position: absolute;
-    top: 0;
     text-align: center;
-    left: 0;
-    right: 0;
   }
 
-.overlayArticle a {
+.overlayHeader {
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.overlayArticle a, .overlayAudioArticle a {
     color: #fff;
   }
 

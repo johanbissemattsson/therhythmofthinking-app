@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import styles from '../stylesheets/containers/media.css';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import cicadas from '../media/cicadas.md';
+import independentVariables from '../media/independent-variables.md';
+import empathy from '../media/empathy.md';
+import birds from '../media/birds.md';
 
 class Media extends React.Component {
   componentWillMount () {
@@ -19,6 +23,16 @@ class Media extends React.Component {
     document.getElementById('footer').style.setProperty("-webkit-filter", "none");*/    
   }
 
+  rawMarkup(){
+    switch (this.props.params.slug) {
+      case 'cicadas': return{ __html: cicadas};
+      case 'independent-variables': return{ __html: independentVariables};
+      case 'empathy': return{ __html: empathy}; 
+      case 'birds': return{ __html: birds};
+      default: return{ __html: birds};
+    }
+  }  
+
   render() {
     console.log(this.props.params.slug);
     document.body.style.overflowY = 'hidden';
@@ -30,10 +44,9 @@ class Media extends React.Component {
       return(
         <div className={styles.overlayContainer}>
           <Link className={styles.overlayClose} to="/" />
-          <article className={styles.overlayArticle}>
+          <article className={styles.overlayAudioArticle}>
             <div className={styles.content}>
-              <h1>{title}</h1>
-              <p>Ljud</p>
+              <div className={styles.content} dangerouslySetInnerHTML={this.rawMarkup(location)} />
             </div>
           </article>
         </div>
@@ -45,7 +58,7 @@ class Media extends React.Component {
           <Link className={styles.overlayClose} to="/" />
           <article className={styles.overlayArticle}>
             <div className={styles.content}>
-              <h1>{title}</h1>
+              <h1 className={styles.overlayHeader}>{title}</h1>
               <video width="320" height="240" controls>
                 <source src="../app/media/cage-interpreted-and-performed/jm51.mp4" type="video/mp4" />
               </video> 
@@ -59,7 +72,7 @@ class Media extends React.Component {
         <Link className={styles.overlayClose} to="/" />
         <article className={styles.overlayArticle}>
           <div className={styles.content}>
-            <h1>{title}</h1>
+            <h1 className={styles.overlayHeader}>{title}</h1>
             <ReactPlayer url='https://vimeo.com/177240898' width="100%"/>
           </div>
         </article>
