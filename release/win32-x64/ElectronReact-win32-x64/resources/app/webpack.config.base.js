@@ -13,7 +13,7 @@ export default {
       test: /\.md$/,
       loader: 'html!markdown?gfm=false'
     }, {
-      test: /\.jpg$/,
+      test: /\.jpg$|.mp4$/,
       loader: 'url'
     }
     ]
